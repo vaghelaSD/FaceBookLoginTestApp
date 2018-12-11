@@ -65,6 +65,10 @@ public class MainActivity extends AppCompatActivity {
         Profile profile = Profile.getCurrentProfile();
         profile.getFirstName();
 
+//AccessToken accessToken = AccessToken.getCurrentAccessToken();
+  //      Profile profile = Profile.getCurrentProfile();
+    //    profile.getFirstName();
+
         Log.d("TAG", "Profile: " + profile.getId());
         Log.d("TAG", "Profile: " + accessToken.getToken());
         Log.d("TAG", "Profile: " + profile.getFirstName());
