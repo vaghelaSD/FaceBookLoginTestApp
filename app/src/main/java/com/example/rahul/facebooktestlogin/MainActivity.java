@@ -55,7 +55,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         manager.onActivityResult(requestCode, resultCode, data);
         super.onActivityResult(requestCode, resultCode, data);
+
+// super.onActivityResult(requestCode, resultCode, data);
     }
+
 
     private void getUserFacebookData() {
         AccessToken accessToken = AccessToken.getCurrentAccessToken();
